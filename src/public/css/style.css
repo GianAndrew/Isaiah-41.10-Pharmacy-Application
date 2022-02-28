@@ -1,0 +1,31 @@
+.qty-input {
+  width: 5rem;
+  text-align: center;
+}
+
+.spinner {
+  animation-name: spinner;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+tr:hover {
+  background-color: #f8f9fa;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  ._btn {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .__btn {
+    width: 100%;
+  }
+}

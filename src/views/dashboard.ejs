@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet" />
+
+    <link
+      rel="shortcut icon"
+      href="/img/ifp_logo_color.png"
+      type="image/x-icon" />
+
+    <link
+      href="/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css" />
+
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link href="/css/sb-admin-2.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Isaiah 41.10 Pharmacy</title>
+  </head>
+  <body id="page-top">
+    <div id="wrapper">
+      <ul
+        class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion"
+        id="accordionSidebar">
+        <a
+          class="sidebar-brand d-flex align-items-center justify-content-center"
+          href="/">
+          <div class="sidebar-brand-icon">
+            <img src="/img/ifp_logo_white.png" style="height: 3rem" />
+          </div>
+          <div class="sidebar-brand-text mx-3">
+            <div
+              class="h2 fw-bold m-0 p-0 fst-italic fw-bolder"
+              style="font-family: Arial, Helvetica, sans-serif">
+              IFP
+            </div>
+          </div>
+        </a>
+
+        <hr class="sidebar-divider my-0" />
+
+        <li class="nav-item active">
+          <a class="nav-link" href="/">
+            <i class="fas fa-th-large"></i>
+            <span>Dashboard</span></a
+          >
+        </li>
+
+        <hr class="sidebar-divider" />
+
+        <div class="sidebar-heading">Medicine</div>
+
+        <hr class="sidebar-divider d-none d-md-block" />
+
+        <div class="text-center d-none d-md-inline">
+          <button class="rounded-circle border-0" id="sidebarToggle"></button>
+        </div>
+      </ul>
+
+      <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content">
+          <nav
+            class="navbar navbar-expand navbar-light bg-light topbar mb-4 static-top shadow d-block d-sm-block d-md-none">
+            <button
+              id="sidebarToggleTop"
+              class="btn btn-link d-md-none rounded-3 border border-success mr-3 text-success">
+              <i class="fa fa-bars"></i>
+            </button>
+          </nav>
+
+          <div class="container-fluid">
+            <div
+              class="d-sm-flex align-items-center justify-content-between my-4">
+              <h1 class="h4 mb-0 text-gray-800">
+                <i class="fas fa-th-large me-2 text-success"></i>Dashboard
+              </h1>
+            </div>
+
+            <div class="row mb-3 g-3">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="card border-left-success shadow h-100 py-2">
+                  <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                      <div class="col mr-2">
+                        <div
+                          class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                          Total Medicine
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">
+                          0
+                        </div>
+                      </div>
+                      <div class="col-auto">
+                        <i class="fas fa-capsules fa-2x text-gray-500"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="card border-left-success shadow h-100 py-2">
+                  <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                      <div class="col mr-2">
+                        <div
+                          class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                          Earnings
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">
+                          ₱0
+                        </div>
+                      </div>
+                      <div class="col-auto">
+                        <span class="fa-2x text-gray-500">₱</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="card border-left-success shadow h-100 py-2">
+                  <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                      <div class="col mr-2">
+                        <div
+                          class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                          Total of Sales
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">
+                          0
+                        </div>
+                      </div>
+                      <div class="col-auto">
+                        <i class="fas fa-calendar fa-2x text-gray-500"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="card border-left-success shadow h-100 py-2">
+                  <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                      <div class="col mr-2">
+                        <div
+                          class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                          Total Stocks
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">
+                          0
+                        </div>
+                      </div>
+                      <div class="col-auto">
+                        <i class="fas fa-box-open fa-2x text-gray-500"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-3 mb-3">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+                <div class="card shadow h-100 mb-4">
+                  <div
+                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-success">
+                      Earnings Overview
+                    </h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="chart-area">
+                      <canvas id="myAreaChart"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                <div class="h-100 card shadow mb-4">
+                  <div
+                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-success">Stocks</h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="chart-pie pt-4 pb-2">
+                      <canvas id="myPieChart"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-success">
+                      Recent Purchase
+                    </h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="table table-borderless" cellspacing="0">
+                        <thead>
+                          <tr>
+                            <th>Purchase ID</th>
+                            <th>Purchased At</th>
+                            <th>Quantity</th>
+                            <th>Amount</th>
+                          </tr>
+                        </thead>
+                        <tfoot>
+                          <tr>
+                            <th>Purchase ID</th>
+                            <th>Purchased At</th>
+                            <th>Quantity</th>
+                            <th>Amount</th>
+                          </tr>
+                        </tfoot>
+                        <tbody id="dashboardPurchaseTable"></tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="sticky-footer bg-white">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span>Copyright &copy; Isaiah 41.10 Pharmacy 2021</span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/js/sb-admin-2.min.js"></script>
+    <script src="/vendor/chart.js/Chart.min.js"></script>
+    <script src="/vendor/fontawesome-free/js/all.min.js"></script>
+  </body>
+</html>
