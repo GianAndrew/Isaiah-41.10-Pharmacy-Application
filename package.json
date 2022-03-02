@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "start": "start http://localhost:3021/ & npm run dev",
+    "start": "start http://localhost:4110/ & npm run dev",
     "operate": "node src/server.js"
   },
   "author": "Gian Andrew M. Del Rosario",
